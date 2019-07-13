@@ -11,7 +11,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 export namespace Components {
   interface GmUserProjects {
     /**
-    * The first name
+    * nickname
     */
     'nickname': string;
   }
@@ -33,7 +33,7 @@ declare global {
 declare namespace LocalJSX {
   interface GmUserProjects extends JSXBase.HTMLAttributes<HTMLGmUserProjectsElement> {
     /**
-    * The first name
+    * nickname
     */
     'nickname'?: string;
   }

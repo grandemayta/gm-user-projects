@@ -8,7 +8,7 @@ import { httpWrapper, getFilteredProjects } from '../../utils/utils';
 })
 export class MyComponent {
   /**
-   * The first name
+   * nickname
    */
   @Prop() nickname: string;
   @State() data: [];

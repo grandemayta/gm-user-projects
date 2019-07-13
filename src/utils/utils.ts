@@ -15,7 +15,7 @@ export async function httpWrapper(nickname: string) {
 }
 
 export function getFilteredProjects(projects: []) {
-  const _projects: [] = [];
+  const _projects: any = [];
   projects.forEach((project: any) => {
     if (project.size > 0 && !project.fork) {
       project.name = project.name.split('-').join(' ');
